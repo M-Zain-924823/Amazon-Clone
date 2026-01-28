@@ -151,7 +151,10 @@ ul.panel-options > li {
 .hero {
     background-image: url("./images/hero_image.jpg");
     background-size: cover;
-    height: 600px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .hero-msg{
@@ -162,9 +165,117 @@ ul.panel-options > li {
     justify-content: center;
     align-items: center;
     font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 25px;
 }
 
 .hero-msg a{
     text-decoration: none;
     color: #007185;
+}
+
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    background-color: #e2e7e6;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.box {
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    padding: 16px;
+    min-width: 350px;
+    flex: 1;
+}
+
+.box h2 {
+    margin-bottom: 10px;
+}
+
+.box img {
+    width: 100%;
+    height: 300px;
+}
+
+.box a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007185;
+}
+
+.top {
+    text-decoration: none;
+    color: white;
+    background-color:#37475a;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    background-color: #222f3d;
+    color: white;
+}
+
+.links li {
+    list-style-type: none;
+    font-size: 0.85rem;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.links .h {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.ending {
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.ending .logo {
+    height: 50px;
+    width: 100px;
+}
+
+.last-panel {
+    background-color: #0f1111;
+    color: white;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    gap: 0.2rem;
+}
+
+.pages {
+    display: flex;
+    gap: 1rem;
+}
+
+.pages a{
+    color: white;
+    text-decoration: none;
 }
