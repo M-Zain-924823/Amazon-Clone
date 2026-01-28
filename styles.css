@@ -116,3 +116,55 @@
 .nav-cart i {
     font-size: 30px;
 }
+
+.panel {
+    height: 40px;
+}
+
+.all-icon {
+    font-size: 1.2rem;
+}
+
+.panel-all {
+    font-weight: bold;
+}
+
+ul.panel-options {
+    list-style-type: none;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #222f3d;
+    color: white;
+}
+
+ul.panel-options > li {
+    padding: 4px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.hero {
+    background-image: url("./images/hero_image.jpg");
+    background-size: cover;
+    height: 600px;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.hero-msg a{
+    text-decoration: none;
+    color: #007185;
+}
